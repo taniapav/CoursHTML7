@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+    <head> 
+	    <title>Les formulaires</title>
+		<meta charset="utf-8" />
+		<link rel="stylesheet" href="jachete.css">
+	</head>
+    <body>
+	    <h1>Les formulaires</h1>
+        <form method="post"	 action="traitement.php">
+		    <fieldset id="sec1">
+			    <legend>Votre identité</legend>
+				<label for="nom">1. Nom :</label>
+				<input type="text" id="nom" name="nom" autocomplete="on" placeholder="Nom"><br>
+				<label for="prenom">2. Prénom</label>
+				<input type="text" id="prenom"  name="prenom" autocomplete="on" placeholder="Prénom"><br>
+				<label for="email">3. Adresse mail :</label>
+				<input type="email" id="email" name="mail" autocomplete="on" placeholder="Adresse mail">
+			</fieldset>
+			<fieldset id="sec2">
+			    <legend>Adresse de livraison</legend>
+				<label for="adresse">1. Adresse :</label>
+				<textarea type="adresse" id="adresse" name="adresse"></textarea><br>
+				<label for="postal">2. Code postal :</label>
+				<input type="text" id="postal"  name="postal" autocomplete="on" placeholder="Code postal"><br>
+				<label for="ville">3. Ville :</label>
+				<input type="text" id="ville" name="ville" autocomplete="on" placeholder="Ville">
+			</fieldset>
+			<fieldset id="sec3">
+			    1. Type de carte bancaire :<br>
+				<input type="radio" id="visa" name="card" value="visa">
+				<label for="visa">Visa</label><br>
+				<input type="radio" id="mastercard" name="card" value="mastercard">
+				<label for="mastercard">Mastercard</label><br>
+			    <legend>Information de réglement</legend>
+				<label for="numero">2. Numéro de carte :</label>
+				<input type="text" id="numero" name="numero" placeholder="Numéro de carte"><br>
+				<label for="secu">3. Code de sécurité :</label>
+				<input type="text" id="secu"  name="securité" placeholder="Code de sécurité"><br>
+				<label for="titulaire">4. Nom de titulaire :</label>
+				<input type="text" id="titulaire" name="titulaire" placeholder="Nom de titulaire">
+			</fieldset>
+	
+	        <input type="submit" value="j'achete!">
+		</form>
+	</body>
+</html>
