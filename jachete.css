@@ -1,0 +1,47 @@
+body{
+	font-size: 16px;
+	font-family: Verdana, sans serif;
+}
+#sec1{
+	background-color: RGBa(30, 144, 255, 0.6);
+	padding: 10px;
+	margin: 20px 0px;
+}
+#sec2{
+	background-color: RGBa(186, 85, 211, 0.6);
+	padding: 10px;
+	margin: 20px 0px;
+}
+#sec3{
+	background-color: RGBa(255, 20, 147, 0.6);
+	padding: 10px;
+	margin: 20px 0px;
+}
+legend{
+	font-weight: bold;
+	font-size: 18px;
+}
+#sec1:hover, #sec2:hover, #sec3:hover{
+	box-shadow: 0px 0px 6px black;
+}
+#sec1 input, #sec2 input, #sec3 input{
+	width: 280px;
+	height: 20px;
+}
+#sec1 label, #sec2 label, #sec3 label{
+	display: inline-block;
+	width: 200px;
+	padding: 10px 0px 15px 30px;   
+}
+input[type="submit"]{
+	float: left;
+	padding: 10px;
+	font-size: 14px;
+	background-color: RGBa(255, 69, 0, 0.6);
+	font-weight: bold;
+	border-radius: 5px;
+}
+input[type="submit"]:hover{
+	box-shadow: 0px 0px 4px #555;
+	background-color: RGBa(255, 255, 0, 0.6);
+}
